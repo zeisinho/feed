@@ -1,0 +1,194 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    --white: #fff;
+    --black: #000000;
+    font-family: "roboto";
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* topo */
+
+#topo {
+    background-color: #000000;
+    padding-bottom: 2%;
+    height: 50%;
+}
+
+.texto h1 {
+    color: #fff;
+    padding-left: 44%;
+    padding-top: 2%;
+
+}
+
+/* fim do top */
+
+.perfil-1 {
+    display: flex;
+    align-items: center;
+    padding-left: 35%;
+    margin-top: 35px;
+
+}
+
+.perfil-1 img {
+    width: 40px;
+    border-radius: 100%;
+
+
+}
+
+.perfil-1 h3 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.post {
+    padding-left: 35%;
+}
+
+.post img {
+    width: 400px;
+}
+
+.reacao {
+    display: flex;
+}
+
+.like {
+    padding-left: 35%;
+}
+
+.like button {
+    border: 0;
+    cursor: pointer;
+}
+
+.comentar {
+    padding-left: 7px;
+}
+
+.comentar button {
+    border: 0;
+    cursor: pointer;
+}
+
+/* fim post-1 */
+.perfil-2 {
+    display: flex;
+    align-items: center;
+    padding-left: 35%;
+    margin-top: 35px;
+
+}
+
+.perfil-2 img {
+    width: 40px;
+    border-radius: 100%;
+
+
+}
+
+.perfil-2 h3 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.post {
+    padding-left: 35%;
+}
+
+.post img {
+    width: 400px;
+}
+
+.reacao {
+    display: flex;
+}
+
+.like {
+    padding-left: 35%;
+}
+
+.like button {
+    border: 0;
+    cursor: pointer;
+}
+
+.comentar {
+    padding-left: 7px;
+}
+
+.comentar button {
+    border: 0;
+    cursor: pointer;
+}
+
+/* fim post-2 */
+
+.perfil-1 {
+    display: flex;
+    align-items: center;
+    padding-left: 35%;
+    margin-top: 35px;
+
+}
+
+.perfil-1 img {
+    width: 40px;
+    border-radius: 100%;
+
+
+}
+
+.perfil-1 h3 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.post {
+    padding-left: 35%;
+}
+
+.post img {
+    width: 400px;
+}
+
+.reacao {
+    display: flex;
+}
+
+.like {
+    padding-left: 35%;
+}
+
+.like button {
+    border: 0;
+    cursor: pointer;
+}
+
+.comentar {
+    padding-left: 7px;
+}
+
+.comentar button {
+    border: 0;
+    cursor: pointer;
+}
