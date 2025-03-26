@@ -1,4 +1,4 @@
-* {
+/* {
     outline: 0;
     padding: 0;
     margin: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 
-/* topo */
+/* topo 
 
 #topo {
     background-color: #000000;
@@ -32,7 +32,7 @@ body {
 
 }
 
-/* fim do top */
+/* fim do top 
 
 .perfil-1 {
     display: flex;
@@ -86,7 +86,7 @@ body {
     cursor: pointer;
 }
 
-/* fim post-1 */
+/* fim post-1 
 .perfil-2 {
     display: flex;
     align-items: center;
@@ -139,7 +139,7 @@ body {
     cursor: pointer;
 }
 
-/* fim post-2 */
+/* fim post-2 
 
 .perfil-1 {
     display: flex;
@@ -186,6 +186,123 @@ body {
 
 .comentar {
     padding-left: 7px;
+}
+
+.comentar button {
+    border: 0;
+    cursor: pointer;
+}
+
+@media(max-width:520px){
+  body{
+   max-width: 1%;
+   height: 50%;
+   padding-left: 0%;
+
+  }
+
+  #container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-right: 25%;
+
+  }
+
+  #topo{
+   
+  }
+  .texto h1{
+    padding-left: 25%;
+  }
+}
+*/
+
+:root{
+    --branco: #fff;
+    --preto: #000;
+}
+
+
+
+*{
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh; /* sempre ficar no tamanho max na tela */
+    overflow-x: hidden; /* não aparece barra de rolagem na horizontal */
+}
+
+#topo{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--preto);
+    padding: 1rem 0;
+
+}
+
+#topo h1{
+    color: var(--branco);
+    text-align: center;
+
+}
+
+#tudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.container{
+    padding: 0 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.post-header img {
+    width: 40px;
+    border-radius: 100%;
+
+}
+
+.post {
+   width: 100%;
+}
+
+.post img {
+    width: 100%;
+}
+
+.reacao {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    align-items: flex-start;
+}
+
+
+.like button {
+    border: 0;
+    cursor: pointer;
+}
+
+.comentar {
+    padding-left: 0.3rem;
 }
 
 .comentar button {
